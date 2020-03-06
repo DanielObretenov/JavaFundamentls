@@ -5,8 +5,8 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Team  {
-    String name;
-    List<Player> players;
+    private String name;
+    private List<Player> players;
     public Team(String name){
         this.name = name;
     }
